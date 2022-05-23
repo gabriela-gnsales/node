@@ -10,8 +10,7 @@ Implemente a requisição utilizando Promise e async/await conforme vimos até e
 
 // Importar o módulo fetch
 
-// import fetch from 'node-fetch';
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+import fetch from 'node-fetch';
 
 // Promise
 
